@@ -7,7 +7,9 @@ import com.raihanardila.alfatih.data.local.entity.SurahEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 class DataSeeder @Inject constructor(
     private val surahDao: SurahDao,
     private val ayahDao: AyahDao
