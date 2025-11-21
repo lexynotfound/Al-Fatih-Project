@@ -21,4 +21,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "Al-Fatih"
 include(":app")
+include(":core:design")
+include(":core:ui")
+include(":core:common")
+include(":domain")
+include(":data")
+include(":feature:quran")
  
